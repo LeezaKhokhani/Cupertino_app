@@ -11,15 +11,16 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage>
+
     with SingleTickerProviderStateMixin {
 
-  late TabController tabController;
+    late TabController tabController;
 
   final TextEditingController nameController = TextEditingController();
   final TextEditingController descriptionController = TextEditingController();
 
   String name = "";
-  String email = "";
+  String email  = "";
   String location = "";
 
   String date = "";
@@ -76,7 +77,7 @@ class _HomePageState extends State<HomePage>
   productsPage(context, width) {
     return SafeArea(
       child: Container(
-        height: 20,
+        height: 15,
         color: CupertinoColors.white,
         child: Column(
           children: [
@@ -181,7 +182,7 @@ class _HomePageState extends State<HomePage>
   }
 
   cartPage(context, width) {
-    double tax = 0;
+
     double total = 0;
 
     for (var e in Global.cartList) {

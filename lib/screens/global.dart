@@ -49,13 +49,4 @@ class Global {
   ];
 }
 
-// titleText(String title) {
-//   return Container(
-//     padding: const EdgeInsets.all(12),
-//     alignment: Alignment.bottomLeft,
-//     child: Text(
-//       title,
-//       style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 34),
-//     ),
-//   );
-// }
+
